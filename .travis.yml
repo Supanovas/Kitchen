@@ -36,5 +36,5 @@ script:
   ## a specific record key to use
   ## like this without having to
   ## configure environment variables
-  ## - cypress run --record --key <your_record_key>
+  ## - cypress run --record --key <5b1c24a6-3705-4c43-b620-387fa6c6cc93>
 
