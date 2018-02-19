@@ -10,6 +10,12 @@ install:
 script:
   - $(npm bin)/cypress run --record --key 5b1c24a6-3705-4c43-b620-387fa6c6cc93
   
+  - cypress.run({
+      spec: './cypress/integration/audience_spec.js',
+      key: '{KEY}',
+      record: true
+    })
+  
 
  
 
