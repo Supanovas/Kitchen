@@ -4,6 +4,8 @@ node_js:
 cache:
   directories:
     - ~/.npm
+    #- ./node_modules/.bin:$PATH
+    - C:/Users/Nova/cypress/integration
     - node_modules
 install:
   - npm install
@@ -13,7 +15,7 @@ script:
 # - cypress run all
 # - cypress run --  example_spec.js
 
-- trace --
+# - trace --
   - $(npm bin)/cypress run --record --key 5b1c24a6-3705-4c43-b620-387fa6c6cc93
   
 
