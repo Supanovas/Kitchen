@@ -10,7 +10,7 @@ install:
   - npm install
 script:
 
-#- cypress run --spec cypress/integration/simple_spec.js
+- cypress run --spec cypress/integration/simple_spec.js
 #- ./scripts/run-simple_spec.js
 
   - $(npm bin)/cypress run --record --key 5b1c24a6-3705-4c43-b620-387fa6c6cc93
