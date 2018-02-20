@@ -9,7 +9,7 @@ cache:
 install:
   - npm install
 script:
-
+- cypress open
 - cypress run
 # - cypress run all
 # - cypress run --  example_spec.js
