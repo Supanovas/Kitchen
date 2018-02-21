@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/cypress-io/cypress-example-kitchensink.git"
+    "url": "git+ssh://github.com/Supanovas/Kitchen.git"
   },
   "author": "Brian Mann",
   "license": "MIT",
